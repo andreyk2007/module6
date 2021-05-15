@@ -1,0 +1,39 @@
+.mainbox {
+position: relative;
+}
+.box {
+position: absolute;
+width: 100px;
+height: 100px;
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: blue;
+}
+.three{
+    background-color: blueviolet;
+
+}
+.four {
+background-color: crimson;
+}
+.box:nth-child(1){
+top:40px;
+left: 70px;
+}
+.box:nth-child(2){
+    top: 70px;
+    left: 100px;
+}
+.box:nth-child(3){
+    top: 80px;
+    left: 10px;
+}
+.box:nth-child(4) {
+top: 0;
+left: 0;
+z-index: -4;
+opacity: 2%;
+}
